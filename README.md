@@ -6,7 +6,7 @@ This package contains the LCMS subset from AEL as a segmentation benchmark.
 
 - Task: segmentation
 - Images: 5
-- Annotations: 39
+- Annotations: 19
 - Classes: 1 (crack)
 - Annotation format: paired PNG masks
 

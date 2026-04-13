@@ -7,7 +7,7 @@
         "crack"
       ],
       "num_classes": 1,
-      "objects": 3,
+      "objects": 2,
       "image_size": {
         "width": 700,
         "height": 1000
@@ -29,7 +29,7 @@
         "crack"
       ],
       "num_classes": 1,
-      "objects": 6,
+      "objects": 3,
       "image_size": {
         "width": 700,
         "height": 1000
@@ -51,7 +51,7 @@
         "crack"
       ],
       "num_classes": 1,
-      "objects": 18,
+      "objects": 7,
       "image_size": {
         "width": 700,
         "height": 1000
@@ -73,7 +73,7 @@
         "crack"
       ],
       "num_classes": 1,
-      "objects": 7,
+      "objects": 5,
       "image_size": {
         "width": 700,
         "height": 1000
@@ -95,7 +95,7 @@
         "crack"
       ],
       "num_classes": 1,
-      "objects": 5,
+      "objects": 2,
       "image_size": {
         "width": 700,
         "height": 1000

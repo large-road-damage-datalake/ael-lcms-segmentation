@@ -4,5 +4,5 @@
 - Subset: LCMS
 - Task: segmentation
 - Image count: 5
-- Annotation count: 39
+- Annotation count: 19
 - Class setup: 1 (crack)

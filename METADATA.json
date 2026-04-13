@@ -54,15 +54,15 @@
   ],
   "statistics": {
     "n_images": 5,
-    "n_annotations": 39,
+    "n_annotations": 19,
     "n_images_with_annotations": 5,
-    "average_annotations_per_image": 7.8,
+    "average_annotations_per_image": 3.8,
     "dataset_size": "0.49 MB",
     "dataset_size_bytes": 513076,
     "dataset_file_count": 10,
     "image_format": "png_masks",
     "class_distribution": {
-      "crack": 39
+      "crack": 19
     },
     "split": {
       "data": {
