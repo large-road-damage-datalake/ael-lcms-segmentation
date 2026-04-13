@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0",
+  "basic_info": {
+    "id": "ael-lcms-segmentation",
+    "name": "AEL",
+    "short_name": "lcms",
+    "description": "Segmentation packaging of AEL subset LCMS with pixel-level crack masks for top-down pavement imagery.",
+    "year": 2016
+  },
+  "project_context": {
+    "task": "segmentation",
+    "tasks": [
+      "segmentation"
+    ],
+    "damage_types": [
+      "crack"
+    ],
+    "task_classification": {
+      "primary_task": "segmentation",
+      "task_subtype": "semantic_segmentation"
+    },
+    "segmentation_type": "semantic_segmentation",
+    "task_subtype": "semantic_segmentation"
+  },
+  "imaging_setup": {
+    "camera": "Road-surface imaging setup",
+    "camera_viewpoint": [
+      "top-down"
+    ],
+    "resolution": "700x1000",
+    "lighting_conditions": "Visible-light outdoor scenes",
+    "capture_height_mm": "Not reported",
+    "geotagged": false,
+    "resolution_details": [
+      {
+        "resolution": "700x1000",
+        "count": 5
+      }
+    ]
+  },
+  "annotation_schema": [
+    {
+      "type": "segmentation_mask",
+      "description": "Binary crack masks paired with AEL LCMS images",
+      "classes": [
+        {
+          "id": 1,
+          "name": "crack",
+          "description": "AEL LCMS class: crack",
+          "color": "#294F71"
+        }
+      ]
+    }
+  ],
+  "statistics": {
+    "n_images": 5,
+    "n_annotations": 39,
+    "n_images_with_annotations": 5,
+    "average_annotations_per_image": 7.8,
+    "dataset_size": "0.49 MB",
+    "dataset_size_bytes": 513076,
+    "dataset_file_count": 10,
+    "image_format": "png_masks",
+    "class_distribution": {
+      "crack": 39
+    },
+    "split": {
+      "data": {
+        "n_images": 5,
+        "percentage": 1.0,
+        "n_images_with_annotations": 5,
+        "annotation_coverage": 1.0,
+        "dataset_size": "0.49 MB",
+        "dataset_size_bytes": 513076,
+        "dataset_file_count": 10
+      }
+    }
+  },
+  "geographic_coverage": {
+    "countries": [
+      {
+        "name": "France",
+        "image_count": 5,
+        "annotated_image_count": 5,
+        "annotation_coverage": 1.0
+      }
+    ],
+    "temporal_scope": "Published 2016"
+  },
+  "quality_assurance": {
+    "annotation_quality": "Pixel-level masks provided in AEL database release",
+    "inter_annotator_agreement": "Not reported",
+    "review_status": "Published research dataset"
+  },
+  "authors": [
+    {
+      "name": "Rabih Amhaz",
+      "affiliation": "Not reported",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Sylvie Chambon",
+      "affiliation": "IRIT",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Jerome Idier",
+      "affiliation": "Not reported",
+      "role": "Dataset Creator"
+    },
+    {
+      "name": "Vincent Baltazart",
+      "affiliation": "Not reported",
+      "role": "Dataset Creator"
+    }
+  ],
+  "license": "Not explicitly stated in source page",
+  "links": {
+    "github": "https://github.com/large-road-damage-datalake/ael-lcms-segmentation",
+    "download": "https://www.irit.fr/~Sylvie.Chambon/Crack_Detection_Database.html",
+    "paper": "https://ieeexplore.ieee.org/abstract/document/7572082",
+    "homepage": "https://www.irit.fr/~Sylvie.Chambon/Crack_Detection_Database.html"
+  },
+  "citation": {
+    "bibtex": "@article{amhaz2016automatic,\n  title = {Automatic Crack Detection on Two-Dimensional Pavement Images: An Algorithm Based on Minimal Path Selection},\n  author = {Amhaz, Rabih and Chambon, Sylvie and Idier, Jerome and Baltazart, Vincent},\n  journal = {IEEE Transactions on Intelligent Transportation Systems},\n  year = {2016},\n  url = {https://ieeexplore.ieee.org/abstract/document/7572082}\n}"
+  },
+  "tags": [
+    "segmentation",
+    "pavement-crack",
+    "ael",
+    "lcms",
+    "france",
+    "top-down"
+  ],
+  "source_publication": {
+    "dataset_doi": "Not provided",
+    "article_doi": "Not provided",
+    "article_title": "Automatic Crack Detection on Two-Dimensional Pavement Images: An Algorithm Based on Minimal Path Selection",
+    "journal": "IEEE Transactions on Intelligent Transportation Systems",
+    "year": 2016
+  }
+}

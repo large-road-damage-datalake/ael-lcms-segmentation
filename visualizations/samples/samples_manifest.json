@@ -1,0 +1,116 @@
+{
+  "samples": [
+    {
+      "file": "sample_01_c1_crack.jpg",
+      "source": "D:/PhD/Datasets/segmentation/AEL/LCMS/images\\LCMS_23a.jpg",
+      "classes": [
+        "crack"
+      ],
+      "num_classes": 1,
+      "objects": 3,
+      "image_size": {
+        "width": 700,
+        "height": 1000
+      },
+      "resized_from": {
+        "width": 700,
+        "height": 1000
+      },
+      "annotation_mode": "mask",
+      "annotation_format": "polygon",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_01_c1_crack_annotation.polygons.json",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_02_c1_crack.jpg",
+      "source": "D:/PhD/Datasets/segmentation/AEL/LCMS/images\\LCMS_40c.jpg",
+      "classes": [
+        "crack"
+      ],
+      "num_classes": 1,
+      "objects": 6,
+      "image_size": {
+        "width": 700,
+        "height": 1000
+      },
+      "resized_from": {
+        "width": 700,
+        "height": 1000
+      },
+      "annotation_mode": "mask",
+      "annotation_format": "polygon",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_02_c1_crack_annotation.polygons.json",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_03_c1_crack.jpg",
+      "source": "D:/PhD/Datasets/segmentation/AEL/LCMS/images\\LCMS_31c.jpg",
+      "classes": [
+        "crack"
+      ],
+      "num_classes": 1,
+      "objects": 18,
+      "image_size": {
+        "width": 700,
+        "height": 1000
+      },
+      "resized_from": {
+        "width": 700,
+        "height": 1000
+      },
+      "annotation_mode": "mask",
+      "annotation_format": "polygon",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_03_c1_crack_annotation.polygons.json",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_04_c1_crack.jpg",
+      "source": "D:/PhD/Datasets/segmentation/AEL/LCMS/images\\LCMS_38c.jpg",
+      "classes": [
+        "crack"
+      ],
+      "num_classes": 1,
+      "objects": 7,
+      "image_size": {
+        "width": 700,
+        "height": 1000
+      },
+      "resized_from": {
+        "width": 700,
+        "height": 1000
+      },
+      "annotation_mode": "mask",
+      "annotation_format": "polygon",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_04_c1_crack_annotation.polygons.json",
+      "slider_ready": true
+    },
+    {
+      "file": "sample_05_c1_crack.jpg",
+      "source": "D:/PhD/Datasets/segmentation/AEL/LCMS/images\\LCMS_24a.jpg",
+      "classes": [
+        "crack"
+      ],
+      "num_classes": 1,
+      "objects": 5,
+      "image_size": {
+        "width": 700,
+        "height": 1000
+      },
+      "resized_from": {
+        "width": 700,
+        "height": 1000
+      },
+      "annotation_mode": "mask",
+      "annotation_format": "polygon",
+      "annotated_file": null,
+      "annotation_file": "annotations/sample_05_c1_crack_annotation.polygons.json",
+      "slider_ready": true
+    }
+  ],
+  "count": 5,
+  "slider_pairs": 5
+}
