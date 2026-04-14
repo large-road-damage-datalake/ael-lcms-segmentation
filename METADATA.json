@@ -5,7 +5,10 @@
     "name": "AEL",
     "short_name": "lcms",
     "description": "Segmentation packaging of AEL subset LCMS with pixel-level crack masks for top-down pavement imagery.",
-    "year": 2016
+    "year": 2016,
+    "family_name": "AEL",
+    "subset_name": "LCMS",
+    "family_description": "AEL is a French top-down pavement crack dataset family composed of multiple subsets such as AIGLE_RN, ESAR, and LCMS."
   },
   "project_context": {
     "task": "segmentation",
@@ -20,23 +23,20 @@
       "task_subtype": "semantic_segmentation"
     },
     "segmentation_type": "semantic_segmentation",
-    "task_subtype": "semantic_segmentation"
+    "task_subtype": "semantic_segmentation",
+    "family_name": "AEL",
+    "subset_name": "LCMS",
+    "family_description": "AEL is a French top-down pavement crack dataset family composed of multiple subsets such as AIGLE_RN, ESAR, and LCMS."
   },
   "imaging_setup": {
     "camera": "Road-surface imaging setup",
     "camera_viewpoint": [
       "top-down"
     ],
-    "resolution": "700x1000",
+    "resolution": "Mixed source resolutions",
     "lighting_conditions": "Visible-light outdoor scenes",
     "capture_height_mm": "Not reported",
-    "geotagged": false,
-    "resolution_details": [
-      {
-        "resolution": "700x1000",
-        "count": 5
-      }
-    ]
+    "geotagged": false
   },
   "annotation_schema": [
     {
