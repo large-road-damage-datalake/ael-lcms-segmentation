@@ -33,10 +33,16 @@
     "camera_viewpoint": [
       "top-down"
     ],
-    "resolution": "Mixed source resolutions",
+    "resolution": "700x1000",
     "lighting_conditions": "Visible-light outdoor scenes",
     "capture_height_mm": "Not reported",
-    "geotagged": false
+    "geotagged": false,
+    "resolution_details": [
+      {
+        "resolution": "700x1000",
+        "count": 5
+      }
+    ]
   },
   "annotation_schema": [
     {
@@ -95,7 +101,7 @@
   "authors": [
     {
       "name": "Rabih Amhaz",
-      "affiliation": "Not reported",
+      "affiliation": "LUNAM Université, IFSTTAR",
       "role": "Dataset Creator"
     },
     {
@@ -105,12 +111,12 @@
     },
     {
       "name": "Jerome Idier",
-      "affiliation": "Not reported",
+      "affiliation": "LUNAM Université, IRCCyN",
       "role": "Dataset Creator"
     },
     {
       "name": "Vincent Baltazart",
-      "affiliation": "Not reported",
+      "affiliation": "LUNAM Université, IFSTTAR",
       "role": "Dataset Creator"
     }
   ],
@@ -134,7 +140,7 @@
   ],
   "source_publication": {
     "dataset_doi": "Not provided",
-    "article_doi": "Not provided",
+    "article_doi": "10.1109/TITS.2015.2477675",
     "article_title": "Automatic Crack Detection on Two-Dimensional Pavement Images: An Algorithm Based on Minimal Path Selection",
     "journal": "IEEE Transactions on Intelligent Transportation Systems",
     "year": 2016
