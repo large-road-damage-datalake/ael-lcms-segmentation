@@ -104,7 +104,7 @@
   "authors": [
     {
       "name": "Rabih Amhaz",
-      "affiliation": "LUNAM Université, IFSTTAR",
+      "affiliation": "LUNAM Universit\u00e9, IFSTTAR",
       "role": "Dataset Creator"
     },
     {
@@ -114,12 +114,12 @@
     },
     {
       "name": "Jerome Idier",
-      "affiliation": "LUNAM Université, IRCCyN",
+      "affiliation": "LUNAM Universit\u00e9, IRCCyN",
       "role": "Dataset Creator"
     },
     {
       "name": "Vincent Baltazart",
-      "affiliation": "LUNAM Université, IFSTTAR",
+      "affiliation": "LUNAM Universit\u00e9, IFSTTAR",
       "role": "Dataset Creator"
     }
   ],
@@ -149,7 +149,7 @@
     "year": 2016
   },
   "class_taxonomy": {
-    "version": "road_damage_v1",
+    "version": "road_damage_v2",
     "classes": [
       {
         "canonical_name": "crack",
@@ -157,6 +157,9 @@
         "damage_family": "crack",
         "damage_subtype": "generic",
         "role": "damage_target",
+        "semantic_role": "damage",
+        "training_role": "target",
+        "status": "stable",
         "is_damage_target": true,
         "aliases": [
           "crack",
@@ -165,8 +168,10 @@
         "source_labels": [
           "crack"
         ],
-        "taxonomy_source": "registry",
-        "taxonomy_unresolved": false
+        "taxonomy_source": "codebook",
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
       }
     ],
     "damage_types": [
